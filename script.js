@@ -6,71 +6,72 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "pergunta deve ser escrita aqui",
+        enunciado: " o ciclo escolar acabou e você precisa decidir qual seu primeiro passo em direção a vida adulta. Qual caminho vocẽ escolhe?",
         alternativas: [
             {
-                texto: "alternativa letra A deve ser escrita aqui",
-                afirmacao: "Afirmação gerada se a pessoa escolher a letra A deve estar aqui "
+                texto: "Ingressar imediatamente na faculdade ou curso técnico para se especializar em sua área ",
+                afirmacao: "Sua busca por especialização académica te ajudou a construir uma base teórica sólida para sua área. "
             },
             {
-                texto: "alternativa letra B deve ser escrita aqui",
-                afirmacao: "Afirmação gerada se a pessoa escolher a letra B deve estar aqui "
+                texto: "Entrar no mercado de trabalho para ganhar experiência prática e independência financeira rápida. ",
+                afirmacao: "A inserção rápida no mercado de trabalho trouxe maturidade e uma visão prática sobre o mundo corporativo."
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Ao planejar o futuro, surge a dúvida: como equilibrar sonhos pessoais e necessidades reais? Qual é a sua prioridade? ",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Seguir fielmente aquilo que ama e sonha fazer, mesmo que demore mais para dar certo.",
+                afirmacao: "Escolher pelo que te motiva te mantém realizado(a), mesmo com desafios e caminhos mais longos. "
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Optar primeiro por algo mais seguro e instável, realizando desejos pessoais aos poucos.",
+                afirmacao: "Garantir instabilidade primeiro te deu tranquilidade e condições melhores de realizar sonhos depois."
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "em um relacionamento, você percebe comportamentos de controle, manipulação e o afastamento progressivo de amigos e familiares. Qual o seu posicionamento? ",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: " Conversar abertamente, explicar seus limites e tentar resolver juntos antes de tomar decisões drásticas.",
+                afirmacao: "Defender seus limites com calma mostrou maturidade, relacionamentos precisam de respeito e confiança."
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Reconhecer que isso não é saudável e se afastar definitivamente, preservando sua saúde mental e vínculos verdadeiros",
+                afirmacao: "Escolher a si mesmo(a) foi a decisão certa. Nenhuma relação vale a pena se custa quem é ou quem ama."
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Você presencia uma situação injusta e preconceituosa com alguém, mas intervir pode trazer problemas para você também. O que faz? ",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "se manifestar contra o que está errado, apoiando a pessoa e dizendo que aquilo não é aceitável. ",
+                afirmacao: "Ter coragem de se posicionar gera mudanças, pequenas atitudes ajudam a construir um mundo mais justo. "
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "procurar forma de ajudar sem correr risco desnecessário, como buscar autoridade ou apoio de outras pessoas.",
+                afirmacao: "Pensar com prudência também é importante. Proteger-se não significa compactar com o erro, mas agir com inteligência. "
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: " o ciclo escolar acabou e você precisa decidir qual seu primeiro passo em direção a vida adulta. Qual caminho vocẽ escolhe?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Ingressar imediatamente na faculdade ou curso técnico para se especializar em sua área ",
+                afirmacao: "Sua busca por especialização académica te ajudou a construir uma base teórica sólida para sua área. "
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Entrar no mercado de trabalho para ganhar experiência prática e independência financeira rápida. ",
+                afirmacao: "A inserção rápida no mercado de trabalho trouxe maturidade e uma visão prática sobre o mundo corporativo."
             }
         ]
     },
-];
+    ];
+
 
 
 let atual = 0;
